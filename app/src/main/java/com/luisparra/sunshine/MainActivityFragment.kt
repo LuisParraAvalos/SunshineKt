@@ -27,7 +27,7 @@ class MainActivityFragment : Fragment() {
                 "Sun 6/29 - Sunny - 20/7"
         )
         recycler_forecast?.apply {
-            layoutManager = LinearLayoutManager()
+            layoutManager = LinearLayoutManager(context)
             adapter
         }
         return rootView
